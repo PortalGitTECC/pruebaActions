@@ -19,7 +19,6 @@ function App() {
     }
   };
 
-  // Llamar a la función fetchData cuando el componente se monta
   useEffect(() => {
     fetchData();
   }, []);
